@@ -43,7 +43,8 @@ body {
 }
 
 .start-screen__wrapper img {
-  width: 100%;
+  width: 80%;
+  border-radius: 10px;
 }
 
 .start-screen__text {
