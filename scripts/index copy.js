@@ -225,3 +225,7 @@ function removeParticle (e) {
 if (document.body.animate) {
   document.querySelectorAll('button').forEach(button => button.addEventListener('click', pop));
 }
+
+document.addEventListener('touchmove', function (event) {
+  if (event.scale !== 1) { event.preventDefault(); }
+}, { passive: false });

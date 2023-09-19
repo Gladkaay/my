@@ -4,6 +4,12 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+:root {
+  touch-action: pan-x pan-y;
+  height: 100% 
+}
+
 body {
   background-color: #ff3a7c;
   /* background-color: #fff; */
